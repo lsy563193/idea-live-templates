@@ -4,6 +4,7 @@
     <variable name="eventType" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="eventName" expression="suggestVariableName()" defaultValue="event" alwaysStopAt="true" />
     <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
@@ -11,6 +12,7 @@
     <variable name="eventType" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="eventName" expression="suggestVariableName()" defaultValue="event" alwaysStopAt="true" />
     <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
@@ -19,6 +21,7 @@
     <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="style" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
@@ -26,6 +29,7 @@
     <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="style" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
@@ -34,12 +38,14 @@
     <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="style" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
   <template name="createObservable" value="Observable.create(new Observable.OnSubscribe&lt;$TYPE$&gt;() {&#10;    @Override&#10;    public void call(Subscriber&lt;? super $TYPE$&gt; subscriber) {&#10;               &#10;    }&#10;});" description="Create RxJava Observable" toReformat="true" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>

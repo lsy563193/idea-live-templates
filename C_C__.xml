@@ -1,0 +1,7 @@
+<templateSet group="C/C++">
+  <template name="for_algo" value="for (; first != last; ++first) {&#10;  $END$&#10;}" description="Indexed for(;;) algo loop" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+</templateSet>
